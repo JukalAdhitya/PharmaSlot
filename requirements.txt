@@ -1,0 +1,33 @@
+SYSTEM REQUIREMENTS
+===================
+1. Node.js (v18 or higher recommended)
+2. npm (usually installed with Node.js)
+3. PostgreSQL (v14 or higher recommended)
+   - Running on default port 5432
+   - Database name: 'pharmaslot'
+   - User: 'postgres' (or configured in .env)
+
+BACKEND DEPENDENCIES
+====================
+(Located in /backend/package.json)
+- express: Web framework
+- pg: PostgreSQL client
+- cors: Cross-Origin Resource Sharing
+- dotenv: Environment variable management
+- axios: HTTP client
+- nodemon: Development server (dev dependency)
+
+FRONTEND DEPENDENCIES
+=====================
+(Located in /frontend/package.json)
+- React: UI Library (v18+)
+- TypeScript: Type safety
+- Vite: Build tool
+- Tailwind CSS: Styling
+- React Router DOM: Navigation
+- Axios: API fetching
+
+BROWSER REQUIREMENTS
+====================
+- Modern web browser (Chrome, Firefox, Edge, Safari)
+- JavaScript enabled

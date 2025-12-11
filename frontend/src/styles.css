@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-slate-900 font-sans overflow-x-hidden;
+  }
+}
+
+@layer components {
+
+  /* Modern Card Utilities */
+  .glass {
+    @apply bg-white border border-slate-200 shadow-sm;
+  }
+
+  .glass-card {
+    @apply glass rounded-xl p-6 transition-all duration-300 hover:shadow-lg;
+  }
+
+  /* Modern Inputs */
+  .input-field {
+    @apply w-full bg-white border border-slate-300 rounded-lg px-4 py-3 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all;
+  }
+
+  /* Modern Buttons */
+  .btn-primary {
+    @apply inline-flex items-center justify-center bg-blue-600 text-white border border-transparent px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-200 shadow-sm active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center bg-white text-indigo-600 border border-indigo-600 px-6 py-2 rounded-lg font-semibold hover:bg-slate-50 transition-all duration-200 shadow-sm active:scale-95;
+  }
+}
