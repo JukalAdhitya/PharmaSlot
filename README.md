@@ -93,5 +93,3 @@ npm run dev
 4.  Push to branch (`git push origin feature/NewFeature`).
 5.  Open a Pull Request.
 
----
-*Built for College Project Submission.*
