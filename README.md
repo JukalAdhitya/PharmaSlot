@@ -4,6 +4,7 @@
 PharmaSlot is a modern full-stack web application designed to help users find medicines, check real-time stock availability across different pharmacies, and book pickup slots to avoid waiting in lines.
 
 ## 🚀 Features
+
 ### For Users
 -   **🔍 AI Health Search**: Ask for medicines or alternatives (e.g., "Alternative to Dolo 650") and get instant suggestions.
 -   **💊 Real-time Inventory**: Search for medicines and see which pharmacies have them in stock.
